@@ -37,7 +37,7 @@ void main (){
     mediaTemperatura = somaTemperaturas/contagem;
 
     IO.println("A temperatura media atual é de: "+mediaTemperatura+" C");
-    
+    IO.println("leituras registradas: "+contagem);
     
         if (mediaTemperatura < 18) {
             IO.println("Temperatura Baixa: Ligar Aquecimento");
